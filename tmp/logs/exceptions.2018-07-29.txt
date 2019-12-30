@@ -1,0 +1,133 @@
+2018-07-29 12:46:20 - ERROR - Msg: [E_NOTICE] "Undefined variable: idSuc" in file C:\xampp\htdocs\desarrollo\content\comercial\despachos\generacion\buscar.php at line 153
+2018-07-29 13:06:02 - ERROR - Msg: [E_NOTICE] "Undefined variable: numeroComprobante" in file C:\xampp\htdocs\desarrollo\content\comercial\facturas\reimpresion\buscar.php at line 53
+2018-07-29 13:06:12 - ERROR - Msg: [E_NOTICE] "Undefined variable: sumaTotal" in file C:\xampp\htdocs\desarrollo\includes\modelosFormularios\modeloFacturaB_1_I.php at line 209
+2018-07-29 14:52:58 - ERROR - Msg: [E_WARNING] "mssql_num_rows(): supplied argument is not a valid MS SQL-result resource" in file C:\xampp\htdocs\desarrollo\factory\Datos.php at line 152
+2018-07-29 15:03:17 - ERROR - Msg: Error al generar el despacho para facturación: No se puede generar un despacho con CERO pares
+2018-07-29 15:03:17 - ERROR - Msg: [E_ERROR] "Call to undefined method Exception::getMesssage()" in file C:\xampp\htdocs\desarrollo\content\comercial\pedidos\nota_de_pedido\facturar.php at line 174
+2018-07-29 15:03:35 - ERROR - Msg: Error al generar el despacho para facturación: No se puede generar un despacho con CERO pares
+2018-07-29 15:03:35 - ERROR - Msg: [E_ERROR] "Call to undefined method Exception::getMesssage()" in file C:\xampp\htdocs\desarrollo\content\comercial\pedidos\nota_de_pedido\facturar.php at line 174
+2018-07-29 15:11:05 - ERROR - Msg: Error al generar el despacho para facturación: No se puede generar un despacho con CERO pares
+2018-07-29 15:11:05 - ERROR - Msg: [E_ERROR] "Call to undefined method Exception::getMesssage()" in file C:\xampp\htdocs\desarrollo\content\comercial\pedidos\nota_de_pedido\facturar.php at line 174
+2018-07-29 15:11:10 - ERROR - Msg: Error al generar el despacho para facturación: No se puede generar un despacho con CERO pares
+2018-07-29 15:11:10 - ERROR - Msg: [E_ERROR] "Call to undefined method Exception::getMesssage()" in file C:\xampp\htdocs\desarrollo\content\comercial\pedidos\nota_de_pedido\facturar.php at line 174
+2018-07-29 15:23:13 - ERROR - Msg: predespachados[1]: 0
+2018-07-29 15:23:13 - ERROR - Msg: predespachados[2]: 1
+2018-07-29 15:23:13 - ERROR - Msg: predespachados[3]: 2
+2018-07-29 15:23:13 - ERROR - Msg: predespachados[4]: 3
+2018-07-29 15:23:13 - ERROR - Msg: predespachados[5]: 3
+2018-07-29 15:23:13 - ERROR - Msg: predespachados[6]: 2
+2018-07-29 15:23:13 - ERROR - Msg: predespachados[7]: 1
+2018-07-29 15:23:13 - ERROR - Msg: predespachados[8]: 0
+2018-07-29 15:23:13 - ERROR - Msg: predespachados[9]: 0
+2018-07-29 15:23:13 - ERROR - Msg: predespachados[10]: 0
+2018-07-29 15:23:13 - ERROR - Msg: Obj predespach: {"empresa":1,"idCliente":291,"idSucursal":1,"observaciones":null,"predespachos":[{"pedidoNumero":18842,"pedidoNumeroDeItem":1,"cant":[]}]}
+2018-07-29 15:23:13 - ERROR - Msg: Error al generar el despacho para facturación: No se puede generar un despacho con CERO pares
+2018-07-29 15:23:13 - ERROR - Msg: Ocurrió un error al intentar facturar el pedido. Error al generar el despacho
+2018-07-29 15:23:13 - ERROR - Msg: [E_WARNING] "mssql_num_rows(): supplied argument is not a valid MS SQL-result resource" in file C:\xampp\htdocs\desarrollo\factory\Datos.php at line 152
+2018-07-29 15:25:19 - ERROR - Msg: predespachados[1]: 0
+2018-07-29 15:25:19 - ERROR - Msg: predespachados[2]: 1
+2018-07-29 15:25:19 - ERROR - Msg: predespachados[3]: 2
+2018-07-29 15:25:19 - ERROR - Msg: predespachados[4]: 3
+2018-07-29 15:25:19 - ERROR - Msg: predespachados[5]: 3
+2018-07-29 15:25:19 - ERROR - Msg: predespachados[6]: 2
+2018-07-29 15:25:19 - ERROR - Msg: predespachados[7]: 1
+2018-07-29 15:25:19 - ERROR - Msg: predespachados[8]: 0
+2018-07-29 15:25:19 - ERROR - Msg: predespachados[9]: 0
+2018-07-29 15:25:19 - ERROR - Msg: predespachados[10]: 0
+2018-07-29 15:25:19 - ERROR - Msg: Obj predespach: {"empresa":1,"idCliente":291,"idSucursal":1,"observaciones":null,"predespachos":[{"pedidoNumero":18842,"pedidoNumeroDeItem":1,"cant":{"1":0,"2":1,"3":2,"4":3,"5":3,"6":2,"7":1,"8":0,"9":0,"10":0}}]}
+2018-07-29 15:25:19 - ERROR - Msg: Error al generar el remito o la factura para facturación: Deberá ingresar una observación para el remito
+2018-07-29 15:25:19 - ERROR - Msg: Ocurrió un error al intentar facturar el pedido. Error al generar el remito o la factura: Deberá ingresar una observación para el remito
+2018-07-29 15:25:19 - ERROR - Msg: [E_WARNING] "mssql_num_rows(): supplied argument is not a valid MS SQL-result resource" in file C:\xampp\htdocs\desarrollo\factory\Datos.php at line 152
+2018-07-29 15:26:20 - ERROR - Msg: predespachados[1]: 0
+2018-07-29 15:26:20 - ERROR - Msg: predespachados[2]: 1
+2018-07-29 15:26:20 - ERROR - Msg: predespachados[3]: 2
+2018-07-29 15:26:20 - ERROR - Msg: predespachados[4]: 3
+2018-07-29 15:26:20 - ERROR - Msg: predespachados[5]: 3
+2018-07-29 15:26:20 - ERROR - Msg: predespachados[6]: 2
+2018-07-29 15:26:20 - ERROR - Msg: predespachados[7]: 1
+2018-07-29 15:26:20 - ERROR - Msg: predespachados[8]: 0
+2018-07-29 15:26:20 - ERROR - Msg: predespachados[9]: 0
+2018-07-29 15:26:20 - ERROR - Msg: predespachados[10]: 0
+2018-07-29 15:26:20 - ERROR - Msg: Obj predespach: {"empresa":1,"idCliente":291,"idSucursal":1,"observaciones":"Para pepito","predespachos":[{"pedidoNumero":18842,"pedidoNumeroDeItem":1,"cant":{"1":0,"2":1,"3":2,"4":3,"5":3,"6":2,"7":1,"8":0,"9":0,"10":0}}]}
+2018-07-29 15:26:20 - ERROR - Msg: Error al generar el remito o la factura para facturación: No hay stock suficiente del artículo "[01-496-AZB] AVRIL BASIC LOW  WOMEN" para realizar el movimiento
+2018-07-29 15:26:20 - ERROR - Msg: Ocurrió un error al intentar facturar el pedido. Error al generar el remito o la factura: No hay stock suficiente del artículo "[01-496-AZB] AVRIL BASIC LOW  WOMEN" para realizar el movimiento
+2018-07-29 15:26:20 - ERROR - Msg: [E_WARNING] "mssql_num_rows(): supplied argument is not a valid MS SQL-result resource" in file C:\xampp\htdocs\desarrollo\factory\Datos.php at line 152
+2018-07-29 15:27:15 - ERROR - Msg: predespachados[1]: 0
+2018-07-29 15:27:15 - ERROR - Msg: predespachados[2]: 1
+2018-07-29 15:27:15 - ERROR - Msg: predespachados[3]: 2
+2018-07-29 15:27:15 - ERROR - Msg: predespachados[4]: 3
+2018-07-29 15:27:15 - ERROR - Msg: predespachados[5]: 3
+2018-07-29 15:27:15 - ERROR - Msg: predespachados[6]: 2
+2018-07-29 15:27:15 - ERROR - Msg: predespachados[7]: 1
+2018-07-29 15:27:15 - ERROR - Msg: predespachados[8]: 0
+2018-07-29 15:27:15 - ERROR - Msg: predespachados[9]: 0
+2018-07-29 15:27:15 - ERROR - Msg: predespachados[10]: 0
+2018-07-29 15:27:15 - ERROR - Msg: predespachados[1]: 0
+2018-07-29 15:27:15 - ERROR - Msg: predespachados[2]: 1
+2018-07-29 15:27:15 - ERROR - Msg: predespachados[3]: 2
+2018-07-29 15:27:15 - ERROR - Msg: predespachados[4]: 3
+2018-07-29 15:27:15 - ERROR - Msg: predespachados[5]: 3
+2018-07-29 15:27:15 - ERROR - Msg: predespachados[6]: 2
+2018-07-29 15:27:15 - ERROR - Msg: predespachados[7]: 1
+2018-07-29 15:27:15 - ERROR - Msg: predespachados[8]: 0
+2018-07-29 15:27:15 - ERROR - Msg: predespachados[9]: 0
+2018-07-29 15:27:15 - ERROR - Msg: predespachados[10]: 0
+2018-07-29 15:27:15 - ERROR - Msg: Obj predespach: {"empresa":1,"idCliente":291,"idSucursal":1,"observaciones":"Para pepito","predespachos":[{"pedidoNumero":18842,"pedidoNumeroDeItem":1,"cant":{"1":0,"2":1,"3":2,"4":3,"5":3,"6":2,"7":1,"8":0,"9":0,"10":0}},{"pedidoNumero":18842,"pedidoNumeroDeItem":2,"cant":{"1":0,"2":1,"3":2,"4":3,"5":3,"6":2,"7":1,"8":0,"9":0,"10":0}}]}
+2018-07-29 15:27:15 - ERROR - Msg: Error al generar el remito o la factura para facturación: No hay stock suficiente del artículo "[01-496-AZB] AVRIL BASIC LOW  WOMEN" para realizar el movimiento
+2018-07-29 15:27:15 - ERROR - Msg: Ocurrió un error al intentar facturar el pedido. Error al generar el remito o la factura: No hay stock suficiente del artículo "[01-496-AZB] AVRIL BASIC LOW  WOMEN" para realizar el movimiento
+2018-07-29 15:27:15 - ERROR - Msg: [E_WARNING] "mssql_num_rows(): supplied argument is not a valid MS SQL-result resource" in file C:\xampp\htdocs\desarrollo\factory\Datos.php at line 152
+2018-07-29 15:27:33 - ERROR - Msg: predespachados[1]: 0
+2018-07-29 15:27:33 - ERROR - Msg: predespachados[2]: 1
+2018-07-29 15:27:33 - ERROR - Msg: predespachados[3]: 2
+2018-07-29 15:27:33 - ERROR - Msg: predespachados[4]: 3
+2018-07-29 15:27:33 - ERROR - Msg: predespachados[5]: 3
+2018-07-29 15:27:33 - ERROR - Msg: predespachados[6]: 2
+2018-07-29 15:27:33 - ERROR - Msg: predespachados[7]: 1
+2018-07-29 15:27:33 - ERROR - Msg: predespachados[8]: 0
+2018-07-29 15:27:33 - ERROR - Msg: predespachados[9]: 0
+2018-07-29 15:27:33 - ERROR - Msg: predespachados[10]: 0
+2018-07-29 15:27:33 - ERROR - Msg: Obj predespach: {"empresa":1,"idCliente":291,"idSucursal":1,"observaciones":"Para pepito","predespachos":[{"pedidoNumero":18842,"pedidoNumeroDeItem":1,"cant":{"1":0,"2":1,"3":2,"4":3,"5":3,"6":2,"7":1,"8":0,"9":0,"10":0}}]}
+2018-07-29 15:27:34 - ERROR - Msg: Error al generar el remito o la factura para facturación: No se puede obtener el CAE porque al cliente le falta el CUIT o no es válido
+2018-07-29 15:27:34 - ERROR - Msg: Ocurrió un error al intentar facturar el pedido. Error al generar el remito o la factura: No se puede obtener el CAE porque al cliente le falta el CUIT o no es válido
+2018-07-29 15:27:34 - ERROR - Msg: [E_WARNING] "mssql_num_rows(): supplied argument is not a valid MS SQL-result resource" in file C:\xampp\htdocs\desarrollo\factory\Datos.php at line 152
+2018-07-29 15:28:49 - ERROR - Msg: predespachados[1]: 0
+2018-07-29 15:28:49 - ERROR - Msg: predespachados[2]: 1
+2018-07-29 15:28:49 - ERROR - Msg: predespachados[3]: 2
+2018-07-29 15:28:49 - ERROR - Msg: predespachados[4]: 3
+2018-07-29 15:28:49 - ERROR - Msg: predespachados[5]: 3
+2018-07-29 15:28:49 - ERROR - Msg: predespachados[6]: 2
+2018-07-29 15:28:49 - ERROR - Msg: predespachados[7]: 1
+2018-07-29 15:28:49 - ERROR - Msg: predespachados[8]: 0
+2018-07-29 15:28:49 - ERROR - Msg: predespachados[9]: 0
+2018-07-29 15:28:49 - ERROR - Msg: predespachados[10]: 0
+2018-07-29 15:28:49 - ERROR - Msg: Obj predespach: {"empresa":1,"idCliente":291,"idSucursal":1,"observaciones":"Para pepito","predespachos":[{"pedidoNumero":18842,"pedidoNumeroDeItem":1,"cant":{"1":0,"2":1,"3":2,"4":3,"5":3,"6":2,"7":1,"8":0,"9":0,"10":0}}]}
+2018-07-29 15:28:50 - ERROR - Msg: Error al generar el remito o la factura para facturación: No se puede obtener el CAE porque al cliente le falta el CUIT o no es válido
+2018-07-29 15:28:50 - ERROR - Msg: Ocurrió un error al intentar facturar el pedido. Error al generar el remito o la factura: No se puede obtener el CAE porque al cliente le falta el CUIT o no es válido
+2018-07-29 15:28:50 - ERROR - Msg: [E_WARNING] "mssql_num_rows(): supplied argument is not a valid MS SQL-result resource" in file C:\xampp\htdocs\desarrollo\factory\Datos.php at line 152
+2018-07-29 15:37:12 - ERROR - Msg: Error al generar el remito o la factura para facturación: No se puede obtener el CAE porque al cliente le falta el CUIT o no es válido
+2018-07-29 15:37:12 - ERROR - Msg: Ocurrió un error al intentar facturar el pedido. Error al generar el remito o la factura: No se puede obtener el CAE porque al cliente le falta el CUIT o no es válido
+2018-07-29 15:37:12 - ERROR - Msg: [E_WARNING] "mssql_num_rows(): supplied argument is not a valid MS SQL-result resource" in file C:\xampp\htdocs\desarrollo\factory\Datos.php at line 152
+2018-07-29 15:38:07 - ERROR - Msg: Error al generar el remito o la factura para facturación: <b>Source:</b> Python COM Server Internal Error<br/><b>Description:</b> Unexpected Python Error: Traceback (most recent call last):
+  File "C:\Python25\Lib\site-packages\win32com\server\policy.py", line 277, in _Invoke_
+    return self._invoke_(dispid, lcid, wFlags, args)
+  File "C:\Python25\Lib\site-packages\win32com\server\policy.py", line 282, in _invoke_
+    return S_OK, -1, self._invokeex_(dispid, lcid, wFlags, args, None, None)
+  File "C:\Python25\Lib\site-packages\win32com\server\policy.py", line 585, in _invokeex_
+    return func(*args)
+  File "C:\pyafipws\wsaa.py", line 225, in CallWSAA
+    raise RuntimeError(self.Excepcion)
+RuntimeError: ns1:cms.cert.expired: Certificado expirado
+
+2018-07-29 15:38:07 - ERROR - Msg: Ocurrió un error al intentar facturar el pedido. Error al generar el remito o la factura: <b>Source:</b> Python COM Server Internal Error<br/><b>Description:</b> Unexpected Python Error: Traceback (most recent call last):
+  File "C:\Python25\Lib\site-packages\win32com\server\policy.py", line 277, in _Invoke_
+    return self._invoke_(dispid, lcid, wFlags, args)
+  File "C:\Python25\Lib\site-packages\win32com\server\policy.py", line 282, in _invoke_
+    return S_OK, -1, self._invokeex_(dispid, lcid, wFlags, args, None, None)
+  File "C:\Python25\Lib\site-packages\win32com\server\policy.py", line 585, in _invokeex_
+    return func(*args)
+  File "C:\pyafipws\wsaa.py", line 225, in CallWSAA
+    raise RuntimeError(self.Excepcion)
+RuntimeError: ns1:cms.cert.expired: Certificado expirado
+
+2018-07-29 15:38:07 - ERROR - Msg: [E_WARNING] "mssql_num_rows(): supplied argument is not a valid MS SQL-result resource" in file C:\xampp\htdocs\desarrollo\factory\Datos.php at line 152
+2018-07-29 15:39:09 - ERROR - Msg: [E_NOTICE] "Undefined variable: numeroComprobante" in file C:\xampp\htdocs\desarrollo\content\comercial\facturas\reimpresion\buscar.php at line 53

@@ -1,0 +1,34 @@
+<?php require_once('../../../../premaster.php'); if (Usuario::logueado()->puede('administracion/proveedores/aplicacion/agregar/')) { ?>
+<?php
+
+$empresa = Funciones::session('empresa');
+$debeId = Funciones::post('debeId');
+$haberId = Funciones::post('haberId');
+$tipoHaber = Funciones::post('tipoHaber');
+
+try {
+	$debe = Factory::getInstance()->getDocumentoProveedorAplicacionDebe($debeId, $empresa);
+	Logger::addError('Debe ok');
+	$haber = Factory::getInstance()->getDocumentoProveedorAplicacionHaber($haberId, $empresa, $tipoHaber);
+	Logger::addError('Haber ok');
+
+	$debe->aplicar($haber);
+	Logger::addError('Aplica ok');
+
+	$return = array(
+		'debe'	=> $debe,
+		'haber'	=> $haber
+	);
+	Logger::addError('Return ok');
+
+	Html::jsonEncode('', $return);
+} catch (FactoryExceptionCustomException $ex) {
+	Html::jsonError($ex->getMessage());
+} catch (FactoryExceptionRegistroExistente $ex){
+	Html::jsonError('Alguno de los documentos no existe. Por favor actualice la lista');
+} catch (Exception $ex){
+	Html::jsonError('Ocurrió un error al intentar aplicar los documentos. ' . $ex->getMessage());
+}
+
+?>
+<?php } ?>

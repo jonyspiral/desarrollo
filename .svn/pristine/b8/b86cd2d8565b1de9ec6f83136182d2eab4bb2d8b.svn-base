@@ -1,0 +1,35 @@
+<?php
+
+class DocumentoProveedorAplicacionDebe extends DocumentoProveedorAplicacion {
+	public function aplicar(DocumentoProveedorAplicacionHaber $documentoProveedorAplicacionHaber) {
+		Logger::addError('A');
+		if ($this->anulado() || $documentoProveedorAplicacionHaber->anulado()){
+			throw new FactoryExceptionCustomException('Alguno de los documentos se encuentra anulado. Por favor actualice la lista');
+		}
+		Logger::addError('B');
+		if (!($this->importePendiente > 0 && $documentoProveedorAplicacionHaber->importePendiente > 0)){
+			throw new FactoryExceptionCustomException('Alguno de los documentos ya se encuentra completamente aplicado. Por favor actualice la lista');
+		}
+
+		$haberMayorDebe = ($documentoProveedorAplicacionHaber->importePendiente >= $this->importePendiente);
+
+		$pendDebe = $this->importePendiente;
+		$pendHaber = $documentoProveedorAplicacionHaber->importePendiente;
+		$this->importePendiente = ($haberMayorDebe || (($pendDebe - $pendHaber) < 0.01)) ? 0 : ($pendDebe - $pendHaber);
+		$documentoProveedorAplicacionHaber->importePendiente = ($haberMayorDebe && (($pendHaber - $pendDebe) > 0.01)) ? ($pendHaber - $pendDebe) : 0;
+
+		Logger::addError('C');
+		$hija = Factory::getInstance()->getDocumentoProveedorHija();
+		Logger::addError('D');
+		$hija->empresa = $this->empresa;
+		$hija->importe = $haberMayorDebe ? $pendDebe : $pendHaber;
+		$hija->documentoCancelatorio = $documentoProveedorAplicacionHaber;
+		$hija->madre = $this;
+
+		Logger::addError('E');
+		$hija->guardar();
+		Logger::addError('F');
+	}
+}
+
+?>

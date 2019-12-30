@@ -1,0 +1,18 @@
+2018-05-31 14:33:46 - ERROR - Msg: Guardando
+2018-05-31 14:33:46 - ERROR - Msg: Ocurrió un error al intentar obtener el ejercicio contable correspondiente a la fecha "31/05/2018". Por favor revise el ABM de ejercicios contables
+2018-05-31 14:33:46 - ERROR - Msg: Ocurrió un error al intentar guardar la nota de débito asd
+2018-05-31 14:33:46 - ERROR - Msg: [E_WARNING] "mssql_num_rows(): supplied argument is not a valid MS SQL-result resource" in file C:\xampp\htdocs\rtg\factory\Datos.php at line 152
+2018-05-31 14:39:44 - ERROR - Msg: Guardando
+2018-05-31 14:39:44 - ERROR - Msg: #0 C:\xampp\htdocs\desarrollo\clases\Contabilidad.php(19): Contabilidad::getEjercicioContable('31/05/2018')
+#1 C:\xampp\htdocs\desarrollo\clases\Contabilidad.php(15): Contabilidad::contabilizar('1', '[NDB] Cliente: ...', '31/05/2018', Array, NULL)
+#2 C:\xampp\htdocs\desarrollo\clases\Documento.php(405): Contabilidad::contabilizarDocumento(Object(NotaDeDebito))
+#3 C:\xampp\htdocs\desarrollo\clases\Documento.php(125): Documento->contabilidad()
+#4 C:\xampp\htdocs\desarrollo\clases\Documento.php(106): Documento->guardarSinCae()
+#5 C:\xampp\htdocs\desarrollo\clases\NotaDeDebito.php(24): Documento->guardar()
+#6 C:\xampp\htdocs\rtg\content\comercial\notas_de_debito\generacion\generica\agregar.php(71): NotaDeDebito->guardar()
+#7 {main}
+2018-05-31 14:39:44 - ERROR - Msg: Ocurrió un error al intentar guardar la nota de débito Ocurrió un error al intentar obtener el ejercicio contable correspondiente a la fecha "31/05/2018". Por favor revise el ABM de ejercicios contables
+2018-05-31 14:39:44 - ERROR - Msg: [E_WARNING] "mssql_num_rows(): supplied argument is not a valid MS SQL-result resource" in file C:\xampp\htdocs\rtg\factory\Datos.php at line 152
+2018-05-31 14:58:19 - ERROR - Msg: [E_NOTICE] "Undefined offset:  49" in file C:\xampp\htdocs\rtg\content\administracion\tesoreria\cheques\reportes\cheques_cartera\buscar.php at line 98
+2018-05-31 14:58:36 - ERROR - Msg: [E_NOTICE] "Undefined variable: where" in file C:\xampp\htdocs\rtg\content\administracion\contabilidad\periodos_fiscales\cierres\buscar.php at line 7
+2018-05-31 19:58:07 - ERROR - Msg: El ejercicio contable que intentó buscar no existe
